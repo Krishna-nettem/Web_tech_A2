@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+
+    <style>
+      .c1{
+        background-color: #ccff66;
+        text-align: center;
+      }
+      input[type=submit]{
+        background-color: #fd8e25;
+        border: none;
+  color: white;
+  padding: 10px 40px;
+  text-decoration: none;
+  margin: 10px 10px;
+  cursor: pointer;
+      }
+      h1{
+        color: #ff0000;
+      }
+    </style>
+</head>
+<body class = 'c1'>
+    <h1>Personal Details</h1>
+    <form>
+        <label>Name:
+        <input type="text" name="name" placeholder="name">
+        </label>
+        <br>
+        <br>
+        <label>Password:
+        <input type="text" name="password" placeholder="enter password">
+        </label>
+        <br>
+        <br>
+        <label>E-mail id:
+        <input type="text" name="email" placeholder="enter email id">
+        </label>
+        <br>
+        <br>
+        <label>Gender : 
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        </label>
+        <br>
+        <br>
+        <label>Contact# : 
+        <input type="text" name="contact" placeholder="enter contact number">
+        </label>
+    </form>
+    <br>
+    <br>
+    <h1>Educational Qualification</h1>
+    <form>
+      <label>Degree:
+
+      <select name="cars" id="cars">
+        <option value="--Select--">--Select--</option>
+        <option value="BA">BA</option>
+        <option value="Btech">Btech</option>
+        <option value="BS">BS</option>
+        <option value="Bsc">Bsc</option>
+        <option value="Other">Other</option>
+      </select>
+    </label>
+    <br>
+    <br>
+    <label>Engineering:
+
+      <select name="cars" id="cars">
+        <option value="--Select--">--Select--</option>
+        <option value="CSE">CSE</option>
+        <option value="ECE">CSE</option>
+        <option value="EE/EEE">EE/EEE</option>
+        <option value="ME">ME</option>
+        <option value="Other">Other</option>
+      </select>
+    </label>
+    <br>
+    <br>
+    <label>Hobbies: 
+    <input type="checkbox" name="hobbies" value="Playing">Playing chess
+    <input type="checkbox" name="hobbies" value="Reading">Reading books
+    </label>   
+    </form>
+    <br>
+    <br>
+    <h1>Address</h1>
+    <form>
+      <textarea name="address" rows="7" cols="50"></textarea>
+      <br>
+      <br>
+      <label>Attach your Resume:
+      <input type="file" name="file">
+      <br>
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
